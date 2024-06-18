@@ -27,6 +27,12 @@ export const PinContainer = ({
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
 
+  const handleClick = () => {
+    if (href) {
+      window.open(href, "_blank", "noopener,noreferrer");
+    }
+  };
+
   return (
     <div
       className={cn(
@@ -35,6 +41,7 @@ export const PinContainer = ({
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      onClick={handleClick}
     >
       <div
         style={{
