@@ -1,14 +1,15 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    // { name: "Testimonials", link: "#testimonials" },
+    { name: "Skills", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
   
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "I prioritize collaboration, fostering open communication ",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -49,7 +50,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building JS and TypeScript (ES6) library",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +73,35 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "AI podcast SaaS - Podcast Application",
+      des: "Platform for creating and sharing podcasts with OpenAI-generated voices and images, secured by Clerk authentication ",
+      img: "/podcast.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg", "/oai.svg", "/apw.svg"],
+      link: "https://github.com/Winson-git/saas-ai-podcast",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Appoitmnet Application",
+      des: "An appointment app that lets users submit forms and enables admins to review and manage submissions efficiently.",
+      img: "/appoitment.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/apw.svg", "/sentry.svg"],
+      link: "https://github.com/Winson-git/carepulse",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "Expenses Tecker Application",
+      des: "An Expenses Tracker app with secure login, leveraging Graph API and MongoDB for efficient data management and tracking.",
+      img: "/expen.png",
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/graph.svg", "/mgdb.svg"],
+      link: "https://github.com/Winson-git/ExpensesTrackerApp",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Clone Nike Website",
+      des: "A responsive, dynamic clone of the Nike website built with React and Tailwind CSS, designed to practice using shadcn and additional plugins.",
+      img: "/nike.png",
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg","shad.png"],
+      link: "https://github.com/Winson-git/Tailwind-CSS",
     },
   ];
   
@@ -173,29 +174,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Software Developer",
+      desc: "Dedicated to enhancing interactivity, improving new technologies, and creating reusable libraries for efficient application development.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Code Review",
+      desc: "Focus on checking functionality, code clarity, and the use of reusable functions to ensure high-quality standards in development projects",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Idea Showcase",
+      desc: "Actively showcase creative solutions and best practices, demonstrating my commitment to continuous improvement as a developer.",
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Project Leadership",
+      desc: "Leadership roles in projects, guiding teams to success while fostering collaboration and innovation using methodologies like Scrum and Kanban",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -205,13 +206,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      url: 'https://github.com/Winson-git'
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
+      url: 'https://www.linkedin.com/in/winson-hong-8402b2240/',
     },
+    // {
+    //   id: 3,
+    //   img: "/twit.svg",
+    // },
+
   ];

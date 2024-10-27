@@ -8,13 +8,13 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
         <h1 className="heading">
-            My <span className="text-purple">approach</span>
+            I&apos;m <span className="text-purple">Doer, Communicator, and Thinker</span>
         </h1>
         <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
             <Card 
-                title="Planning & Strategy" 
-                icon={<AceternityIcon order="Phase 1" />}
-                description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+                title="How I Work" 
+                icon={<AceternityIcon order="Doer" />}
+                description="I adopt a collaborative approach, leveraging Agile methodologies like Scrum and Kanban to streamline processes and enhance team dynamics. My focus is on maintaining a balance between efficiency and quality, ensuring that projects are delivered on time without compromising standards."
             >
             <CanvasRevealEffect
                 animationSpeed={5.1}
@@ -22,9 +22,9 @@ const Approach = () => {
             />
             </Card>
             <Card 
-                title="Development & Progress Update" 
-                icon={<AceternityIcon order="Phase 2"/>}
-                description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+                title="Communication Style" 
+                icon={<AceternityIcon order="Communicator"/>}
+                description="I believe in transparent and open communication, encouraging feedback and discussion among team members. I utilize tools like Slack and video calls to facilitate real-time collaboration, fostering an environment where ideas can flow freely and all voices are heard."
             >
             <CanvasRevealEffect
                 animationSpeed={3}
@@ -39,9 +39,9 @@ const Approach = () => {
             <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
             </Card>
             <Card 
-                title="Development & Launch" 
-                icon={<AceternityIcon order="Phase 3"/>}
-                description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+                title="Thought Process" 
+                icon={<AceternityIcon order="Thinker"/>}
+                description="My thought process is analytical and creative, allowing me to tackle complex problems with innovative solutions. I approach challenges systematically, breaking them down into manageable components and considering multiple perspectives to arrive at the best outcome. This mindset enables me to adapt quickly to new information and adjust strategies as needed."
             >
             <CanvasRevealEffect
                 animationSpeed={3}
