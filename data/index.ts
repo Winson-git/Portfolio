@@ -9,17 +9,17 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize collaboration, fostering open communication ",
-      description: "",
+      title: "Skilled in various frameworks and languages, focused on creating maintainable, future-ready code and tackling new challenges with a growth mindset",
+      description: "I'm a software developer",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/grid.svg",
       spareImg: "",
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Interested in Web3 and its future impact on tech.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -39,8 +39,8 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
-      description: "",
+      title: "BSc Computer Science with AI (Hons)",
+      description: "University of Nottingham",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -81,7 +81,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Appoitmnet Application",
+      title: "Appointment Application",
       des: "An appointment app that lets users submit forms and enables admins to review and manage submissions efficiently.",
       img: "/appoitment.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/apw.svg", "/sentry.svg"],
@@ -89,7 +89,7 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Expenses Tecker Application",
+      title: "Expense Tracker Application",
       des: "An Expenses Tracker app with secure login, leveraging Graph API and MongoDB for efficient data management and tracking.",
       img: "/expen.png",
       iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/graph.svg", "/mgdb.svg"],
