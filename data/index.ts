@@ -1,8 +1,8 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    // { name: "Testimonials", link: "#testimonials" },
-    { name: "Skills", link: "#testimonials" },
+    { name: "Testimonials", link: "#testimonials" },
+    // { name: "Skills", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -108,34 +108,22 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Managed server configuration and security (NGIX, IIS) and built scalable Android applications. Developed responsive front-end interfaces and a reusable CSS library to accelerate project timelines. Enhanced performance by implementing auto-loading and optimizing data handling. Led QA efforts to ensure cross-platform compatibility, managed Agile-based project planning, and conducted code reviews for maintainability and standardization.",
+      name: "Silver Sand Sdn Bhd - Software Developer",
+      title: "2023-Present",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Contributed to front-end development with a focus on React Native, creating cross-platform applications for Android (APK) and iOS. Enhanced user experiences by optimizing the applications for seamless functionality across devices.",
+      name: "Justag - Part-time Developer",
+      title: "2022-2023",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
+        "Performed application testing and developed mobile applications using React Native with NativeBase. Built and tested Android and iOS applications, ensuring robust functionality and compatibility across platforms.",
+      name: "Bullmart-Software Intern",
+      title: "2022",
+    }
   ];
   
   export const companies = [
@@ -196,7 +184,7 @@ export const navItems = [
     {
       id: 4,
       title: "Project Leadership",
-      desc: "Leadership roles in projects, guiding teams to success while fostering collaboration and innovation using methodologies like Scrum and Kanban",
+      desc: "Leadership roles in projects, guiding teams to success while fostering collaboration and innovation using methodologies like aglie",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
